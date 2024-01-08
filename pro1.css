@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url(backgd.jpg);
+    background-size: cover;
+    
+}
+
+header {
+    background-color: #ff1d58;
+    color: #141010;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.company-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.team-section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+    width: 70%;
+}
+
+.team-branch {
+    background-color: #e5eaf5;
+    border: 2px solid #d0bdf4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 620px;
+    width: 70%;
+}
+
+.department-name {
+    background-color:#8458B3;
+    color: #141010;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.leadership-branch {
+    background-color:  #a28089;
+    width: 70%;
+}
+
+.development-branch {
+    background-color: #7788e6;
+    width: 70%;
+}
+
+.sales-branch {
+    background-color: #ffb3fb;
+    width: 70%;
+}
+
+.team-column {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 70%;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color:#c3195d;
+    color: #141010;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: #141010;
+}
